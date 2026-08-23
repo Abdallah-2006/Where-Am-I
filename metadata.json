@@ -1,0 +1,10 @@
+{
+  "name": "دليل مواصلات الزقازيق",
+  "description": "منصة النقل العام ودليل المواصلات الشامل لمدينة الزقازيق ومحافظة الشرقية: محطة القطار، السرفيس الداخلي، موقف الأحرار الجديد، موقف الزراعة، وميكروباص المدن والمحافظات.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

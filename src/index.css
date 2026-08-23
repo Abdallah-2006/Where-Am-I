@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* عدّل القيم في هذا القسم لتغيير ثيم التطبيق بالكامل. */
+ :root {
+  --color-bg: #f7fafc;
+  --color-surface: #eef4f7;
+  --color-white: #ffffff;
+  --color-text: #12212b;
+  --color-text-strong: #172f3d;
+  --color-text-muted: #3b5361;
+  --color-text-subtle: #70838d;
+  --color-border: #d8e3e8;
+  --color-border-strong: #b7c9d1;
+  --color-control: #e6eef2;
+  --color-primary-dark: #073b4c;
+  --color-primary: #0b5c75;
+  --color-primary-hover: #087f8c;
+  --color-primary-soft: #d7eff0;
+  --color-success: #258a70;
+  --color-info: #2c83b5;
+  --color-warning: #c6922e;
+  --color-danger: #d25b50;
+  --color-danger-soft: #fbe0dc;
+  --color-orange: #e68b45;
+  --color-orange-dark: #b85c2d;
+  --color-orange-deep: #8e3f23;
+  --color-purple: #7566d8;
+  --color-rail: #246b86;
+  --color-rail-blue: #2c83b5;
+  --color-rail-gold: #c6922e;
+  --color-rail-green: #258a70;
+  --color-rail-purple: #7566d8;
+  --color-public-bus: #258a70;
+  --color-brt: #0b5c75;
+  --color-microbus: #d25b50;
+  --shadow-popup-color: rgba(18, 33, 43, 0.14);
+  --shadow-header-color: rgba(18, 33, 43, 0.08);
+  --font-family-arabic: 'IBM Plex Sans Arabic', system-ui, -apple-system, sans-serif;
+}
+html, body, #root { min-height: 100%; }
+body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-family-arabic); }
+.leaflet-container { font-family: var(--font-family-arabic) !important; width: 100%; height: 100%; background: var(--color-surface); direction: ltr; }
+.leaflet-popup-content-wrapper { direction: rtl; text-align: right; border-radius: 16px; box-shadow: 0 10px 25px -5px var(--shadow-popup-color), 0 8px 10px -6px var(--shadow-popup-color); padding: 4px; border: 1px solid var(--color-border); }
+.leaflet-popup-content { margin: 12px 14px; line-height: 1.5; font-size: 13px; }
+.leaflet-popup-tip { background: var(--color-white); }
+.custom-station-marker, .custom-route-marker { background: transparent; border: none; }
+::selection { background: var(--color-primary-soft); color: var(--color-primary-dark); }
