@@ -185,7 +185,7 @@ export const Header = ({
           </div>
 
           {/* User Profile Button */}
-          <button
+          {/* <button
             onClick={() => setActiveTab('profile')}
             className={`w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center transition-all ${
               activeTab === 'profile'
@@ -195,7 +195,7 @@ export const Header = ({
             title="الملف الشخصي والحساب"
           >
             <span className="material-symbols-outlined text-[20px]">person</span>
-          </button>
+          </button> */}
         </div>
 
       </div>
@@ -235,14 +235,14 @@ export const Header = ({
           >
             خطط رحلة
           </button>
-          <button
+          {/* <button
             onClick={() => setActiveTab('profile')}
             className={`px-2.5 py-1.5 text-[12px] font-semibold rounded-lg text-center whitespace-nowrap ${
               activeTab === 'profile' ? 'bg-[var(--color-primary)] text-white' : 'text-[var(--color-text-muted)]'
             }`}
           >
             حسابي
-          </button>
+          </button> */}
         </div>
       </div>
     </header>
